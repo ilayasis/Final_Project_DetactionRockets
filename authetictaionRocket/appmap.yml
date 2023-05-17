@@ -1,0 +1,5 @@
+name: authetictaionRocket
+packages:
+  - path: Model
+language: javascript
+appmap_dir: tmp/appmap

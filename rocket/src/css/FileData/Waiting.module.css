@@ -1,0 +1,22 @@
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.animation {
+  font: bold 100% Consolas, Monaco, monospace;
+  border-right: 0.1em solid black;
+  width: 30ch; /* increase the width */
+  margin: 2em 2em;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 10s steps(27, end),
+    /* increase the duration */ blink-caret 0.5s step-end infinite alternate;
+}

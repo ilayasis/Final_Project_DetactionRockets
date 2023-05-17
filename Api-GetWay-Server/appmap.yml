@@ -1,0 +1,9 @@
+name: Api-GetWay-Server
+packages: []
+language: javascript
+appmap_dir: tmp/appmap
+test_recording:
+  test_commands:
+    - env:
+        APPMAP: 'true'
+      command: bundle exec ralis test

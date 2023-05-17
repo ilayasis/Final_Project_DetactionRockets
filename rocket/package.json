@@ -1,0 +1,89 @@
+{
+  "name": "rocket-client",
+  "version": "0.1.0",
+  "proxy": "http://127.0.0.1:8000",
+  "private": true,
+  "config-overrides-path": "node_modules/some-preconfigured-rewire",
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@material-ui/styles": "^4.11.5",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/material": "^5.10.7",
+    "@mui/styled-engine-sc": "^5.10.6",
+    "@mui/styles": "^5.10.7",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "assert": "^2.0.0",
+    "axios": "^0.27.2",
+    "base64-js": "^1.5.1",
+    "bucket": "^0.0.1",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "fs": "npm:file-system@^2.2.2",
+    "gridfs-stream": "^1.1.1",
+    "https-browserify": "^1.0.0",
+    "js-base64": "^3.7.3",
+    "jsonpickle": "^1.1.2",
+    "jwt-decode": "^3.1.2",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.8.1",
+    "node-pickle": "^0.0.2",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "os-browserify": "^0.3.0",
+    "path": "npm:path-browserify@^1.0.1",
+    "pickle": "^0.2.0",
+    "process": "^0.11.10",
+    "radium": "^0.26.2",
+    "react": "^18.2.0",
+    "react-aws-s3": "^1.5.0",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^18.2.0",
+    "react-dropzone-uploader": "^2.11.0",
+    "react-player": "^2.11.2",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "^5.0.1",
+    "react-spinners": "^0.13.6",
+    "react-toastify": "^9.0.8",
+    "react-video-player-extended": "^9.0.0",
+    "redux-thunk": "^2.4.2",
+    "screenfull": "^6.0.2",
+    "socket.io-client": "^4.5.4",
+    "spinners-react": "^1.0.7",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "styled-components": "^5.3.6",
+    "sweetalert2": "^11.7.3",
+    "url": "^0.11.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-app-rewired": "^1.6.2"
+  }
+}

@@ -1,0 +1,443 @@
+.buttonFiles {
+  display: flex;
+  height: 24px;
+  width: 46px;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee4b;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  border: none;
+  background: #fff;
+  margin-left: 979px;
+  margin-top: -418px;
+}
+
+.buttonFiles > svg {
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 10px;
+  transition: all 0.4s ease-in;
+}
+.buttonFiles:hover > svg {
+  font-size: 1.2em;
+  transform: translateX(-5px);
+}
+
+.buttonFiles:hover {
+  box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+  transform: translateY(-2px);
+}
+
+.buttonFilesContainer {
+  margin-top: 450px;
+  position: absolute;
+}
+
+.h5Container {
+  margin-top: 20px;
+}
+
+.h5 {
+  margin-top: 100px;
+  font-size: 36px; /* adjust the size as needed */
+  font-weight: bold;
+  color: white; /* make the text color white to contrast with the black card */
+  text-align: center; /* center the text horizontally */
+  margin-top: 20px; /* add some margin to the top to separate it from other elements */
+  text-shadow: 1px 1px #000000;
+  border-bottom: 4px solid white; /* add a 3px solid white */
+  padding-bottom: 12px;
+}
+
+.cardFile {
+  position: absolute;
+  width: 1080px;
+  height: 720px;
+  border-radius: 30px;
+  background: #212121;
+  margin-left: 310px;
+  margin-top: 15px;
+  box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+}
+
+.cardFileConti {
+  width: 310px;
+  height: 310px;
+  background: rgb(254, 255, 255);
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  margin-left: 1140px;
+  margin-top: 150px;
+}
+
+.secondAnimation {
+  --hoverContorno: #959595;
+}
+
+.secondAnimation:hover,
+.secondAnimation:focus {
+  -webkit-animation: cardAnimacion 1.4s;
+  animation: cardAnimacion 1.4s;
+  box-shadow: 0 0 0 0.8em rgba(255, 255, 255, 0);
+  border-radius: 20px;
+}
+
+.videoContainer {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin-left: 455px;
+  margin-bottom: -50px;
+  padding-top: 56.25%;
+}
+.cardVideo {
+  width: 190px;
+  height: 254px;
+  border-radius: 0px;
+  margin-left: 150px;
+
+  box-shadow: 7px 7px 10px rgb(25, 25, 25), -7px -7px 20px rgb(60, 60, 60);
+}
+
+.videoContainer video {
+  width: 100%;
+  height: 100%;
+}
+
+.videoContainer .videoControls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.videoContainer .videoControls button {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.videoContainer .videoControls button:hover {
+  background: #ccc;
+}
+
+.videoContainer .videoControls .playPauseButton {
+  background: #4caf50;
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.videoContainer .videoControls .muteUnmuteButton {
+  background: #fff;
+  color: #000;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.videoContainer .videoControls .progressBar {
+  flex: 1;
+  height: 5px;
+  background: #ddd;
+  position: relative;
+}
+
+.videoContainer .videoControls .progressBar .progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #4caf50;
+}
+
+.videoContainer .videoControls .progressBar .progressThumb {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 10px;
+  height: 15px;
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.videoContainer .videoControls .volumeControl {
+  display: flex;
+  align-items: center;
+}
+
+.videoContainer .videoControls .volumeControl .volumeSlider {
+  /* -webkit-appearance: none;  */
+  width: 100px;
+  height: 5px;
+  background: #ddd;
+  outline: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.videoContainer
+  .videoControls
+  .volumeControl
+  .volumeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.videoContainer .videoControls .volumeControl .volumeSlider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* 
+.cat {
+  width: 220px;
+  height: 480px;
+
+  overflow-y: scroll;
+  background-color: rgb(86, 175, 179);
+  margin-left: 1250px;
+  margin-top: -480px;
+  border: solid #000 5px;
+} */
+
+.centerVideo {
+  width: 220px;
+  height: 480px;
+  overflow-y: scroll;
+  background-color: rgb(86, 175, 179);
+  margin-left: 1250px;
+  margin-top: -480px;
+  border: solid #000 5px;
+}
+
+.cardData {
+  position: absolute;
+  margin-left: 600px;
+  /* margin-top: 20px;
+  width: 450px;
+  height: 520px;
+  background: lightgrey;
+  border: 3px inset white;
+  background: #e8e8e8;
+ 
+  transition: all 0.5s ease-in-out;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  color: #8a8989;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande"; */
+  overflow-y: scroll;
+  box-shadow: inset 20px 20px 60px #c5c5c5, inset -20px -20px 60px #ffffff;
+  width: 440px;
+  height: 540px;
+  margin-top: 20px;
+  background-color: rgb(86, 175, 179);
+  /* margin-left: 1250px;
+  margin-top: -480px; */
+  border: solid #000 3.5px;
+}
+.hconfidence {
+  font-size: 13px;
+}
+.carDataInsdie {
+  height: 280px;
+  /* overflow-y: scroll; */
+  background-color: rgb(255, 255, 255);
+  border: solid #000 2px;
+  margin: 8px;
+}
+
+.line-container {
+  position: relative;
+  margin-top: 201px;
+}
+/* 
+// Vertical line on the left side */
+.line-container::before {
+  content: "";
+  position: fixed;
+  top: 31px;
+  margin-left: 30px;
+  bottom: -11px;
+  width: 2px;
+  background-color: #b3b1b1;
+  height: 42px;
+  margin-top: 638px;
+}
+
+.line-container::after {
+  content: "";
+  position: absolute;
+  top: 81%;
+  left: 0;
+  height: 3px;
+  width: 510px;
+  background-color: #b3b1b1;
+  transform: translateY(-50%);
+  margin-top: 394px;
+  margin-left: 33px;
+}
+
+/* // Vertical line connecting to the horizontal line */
+.line-connector {
+  content: "";
+  position: fixed;
+  top: 31px;
+  margin-left: 542px;
+  bottom: -11px;
+  width: 2px;
+  background-color: #b3b1b1;
+  height: 42px;
+  margin-top: 638px;
+}
+
+.buttonLastFrame {
+  margin-left: 620px;
+  color: #ecf0f1;
+  font-size: 17px;
+  background-color: #212121;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 6px 0px #787878;
+  transition: all 50ms;
+  width: 186px;
+  height: 45px;
+  margin-top: 377px;
+  position: absolute;
+}
+
+.buttonLastFrame:active {
+  box-shadow: 0px 2px 0px #787878;
+}
+
+.buttonNextFrame {
+  margin-left: 827px;
+  margin-top: 377px;
+  color: #ecf0f1;
+  font-size: 17px;
+  background-color: #212121;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 6px 0px #787878;
+  transition: all 50ms;
+  width: 186px;
+  height: 45px;
+  position: absolute;
+}
+
+.buttonNextFrame:active {
+  box-shadow: 0px 2px 0px #787878;
+  position: relative;
+}
+
+.DataCard {
+  width: 400px;
+  height: 300px;
+  margin-left: 16px;
+  margin-top: 5px;
+  background-color: rgb(255, 255, 255);
+
+  border: solid #a59191 3.4px;
+}
+
+.Detection {
+  margin-left: 130px;
+  margin-top: 5px;
+  border-bottom: 1px solid black;
+  width: "10%";
+  font-family: serif;
+  font-size: 27px;
+}
+.DetectionData {
+  font-family: "Damion", cursive;
+  margin-left: 168px;
+  font-size: 17px;
+}
+
+.SurfaceArea {
+  margin-left: 110px;
+  margin-top: 10px;
+  border-bottom: 1px solid black;
+  width: "10%";
+  font-family: serif;
+  font-size: 27px;
+}
+
+.firstPoint {
+  margin-left: -90px;
+  position: absolute;
+  margin-top: 4px;
+}
+
+.pointsOne {
+  font-size: 12px;
+  margin-left: -68px;
+  position: absolute;
+  margin-top: 2.85px;
+}
+
+.secondPoint {
+  position: absolute;
+  margin-left: -90px;
+  margin-top: 64px;
+}
+.pointsTwo {
+  font-size: 12px;
+  margin-left: -68px;
+  position: absolute;
+  margin-top: 3.5px;
+}
+
+.thirdPoint {
+  margin-left: 55px;
+  margin-top: 13px;
+}
+.pointsThree {
+  font-size: 12px;
+  margin-left: 94px;
+  position: absolute;
+  margin-top: 2px;
+}
+.fourPoint {
+  margin-left: 58px;
+  margin-top: 38px;
+}
+.pointFour {
+  font-size: 12px;
+  margin-left: 90px;
+  position: absolute;
+  margin-top: 2px;
+}
+.cardStreamData {
+  width: 100%;
+  height: 60px;
+}

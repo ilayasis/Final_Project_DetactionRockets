@@ -1,0 +1,115 @@
+.container {
+  width: 60%;
+  height: 100%;
+  /* margin: auto; */
+  margin-top: 10px;
+  border: solid #000 5px;
+  padding-top: 50px;
+}
+
+.img {
+  margin-top: 138px;
+  margin-left: 350px;
+  width: 850px;
+  height: 480px;
+  object-fit: cover;
+  border: solid #000 5px;
+}
+
+.imgContainer {
+  width: 850px;
+  height: 480px;
+  /* overflow: hidden;
+  border: 1px solid #333; */
+  margin-top: -38px;
+  margin-left: 25px;
+  margin-right: -55px;
+}
+.imgload {
+  background: #333;
+  width: 850px;
+  height: 480px;
+  margin-top: 138px;
+  margin-left: 350px;
+  object-fit: cover;
+  border: solid #000 5px;
+}
+
+.containerUploud {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+
+  border: solid rgb(8, 151, 115) 8px;
+  padding-top: 50px;
+  margin-left: 350px;
+}
+
+.containerupload {
+  text-align: center;
+}
+
+.containerDetaction {
+  width: 50%;
+  right: 5000px;
+  background-color: rgb(182, 129, 129);
+  margin-left: 300050px;
+  margin-top: 138px;
+  margin: 10px;
+  padding: 5px;
+  border: 7px solid forestgreen;
+}
+
+.Detection {
+  margin-top: -479px;
+}
+
+.cat {
+  width: 220px;
+  height: 480px;
+  overflow-y: scroll;
+  background-color: rgb(86, 175, 179);
+  margin-left: 1250px;
+  margin-top: -480px;
+  border: solid #000 5px;
+}
+
+.button {
+  margin-left: 1250px;
+}
+/* .cat {
+  width: 120px;
+  height: 65px;
+  overflow-y: scroll;
+  background-color: rgb(86, 175, 179);
+  margin-left: 1250px;
+  margin-top: -480px;
+} */
+
+.body {
+  margin: 20px;
+}
+
+.cat > * {
+  margin: 10px;
+  height: 50px;
+  width: calc(100%-20px);
+  border: solid;
+}
+
+.h4 {
+  text-align: center;
+}
+
+table {
+  width: 800px;
+  height: 200px;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+}

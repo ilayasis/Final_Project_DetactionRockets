@@ -1,0 +1,23 @@
+.toggle {
+  height: 30px;
+  width: 80px;
+  margin-top: 70px;
+  margin-left: 1000px;
+  border-radius: 20px;
+}
+
+.toggle_left {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.toggle_right {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 5px 2px 5px 35px;
+}
