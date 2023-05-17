@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stream yolo</title>
+  </head>
+  <body>
+    <h1>
+      <img src="{% url '/' %}" width="850"  height= "480" alt="stream"></img>
+    </h1>
+    <h1>
+      <video src="{% url 'video_feed/' %}" width="850"  height= "480" alt="stream"></video>
+    </h1>
+    <h1>
+      <img src="{% url 'get_first_video_frame/' %}" alt="first_frame"></img>
+    </h1>
+    <h1>
+      <video src="{% url ' live_video/' %}" width="850"  height= "480" alt="stream"></video>
+    </h1>
+    <h3>
+       <a href="{% url 'detection_percentage/' %}"></a>
+    </h3>
+    <h1>
+      <video controls>
+        <source src="{% url 'load_video/' %}">
+      </video>
+    </h1>
+    <h1>
+      <video controls>
+        <source src="{% url 'get_files/' %}">
+      </video>
+    </h1>
+  </body>
+</html>
+
+
+
+
+{% comment %} <!DOCTYPE html>
+<html>
+  <head>
+    <title>WebSocket Example</title>
+  </head>
+  <body>
+    <h1>WebSocket Example</h1>
+    <div id="confidence"></div>
+
+    <script>
+      var socket = new WebSocket(
+        "ws://" + window.location.host + "/ws/detection/"
+      );
+
+      socket.onmessage = function (e) {
+        var data = JSON.parse(e.data);
+        document.getElementById("confidence").innerHTML =
+          "Confidence: " + data.confidence;
+      };
+
+      socket.onclose = function (e) {
+        console.error("WebSocket closed unexpectedly");
+      };
+    </script>
+  </body>
+</html> {% endcomment %}

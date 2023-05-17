@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "node-pickle": "^0.0.2",
+    "react-spinners": "^0.13.6",
+    "selenium-webdriver": "^4.5.0",
+    "yolov5": "^1.0.11"
+  }
+}
